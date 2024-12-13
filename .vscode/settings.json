@@ -56,5 +56,6 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "C_Cpp.default.compilerPath": "cl.exe"
+  "C_Cpp.default.compilerPath": "cl.exe",
+  "godotTools.editorPath.godot4": "c:\\Users\\jdsas\\Downloads\\Godot_v4.3-stable_mono_win64\\Godot_v4.3-stable_mono_win64\\Godot_v4.3-stable_mono_win64.exe"
 }
