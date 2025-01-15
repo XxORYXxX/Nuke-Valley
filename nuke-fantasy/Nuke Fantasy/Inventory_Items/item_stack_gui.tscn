@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://dk4bwaoy3t6o0"]
+
+[ext_resource type="FontFile" uid="uid://dbx77gyja0lvw" path="res://Nuke Fantasy/Fonts/NormalFont/NormalFont.ttf" id="1_ab6ck"]
+[ext_resource type="Script" path="res://Nuke Fantasy/Inventory_Items/Scripts/item_stack_gui.gd" id="1_mlrq6"]
+
+[node name="Panel" type="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+offset_right = 32.0
+offset_bottom = 32.0
+script = ExtResource("1_mlrq6")
+
+[node name="Item" type="Sprite2D" parent="."]
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = -8.0
+offset_top = -6.0
+offset_right = 14.0
+offset_bottom = 16.0
+theme_override_fonts/font = ExtResource("1_ab6ck")
+text = "99
+"

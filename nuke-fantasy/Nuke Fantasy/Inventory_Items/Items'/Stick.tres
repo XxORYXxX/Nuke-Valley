@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=4 format=3 uid="uid://ccrl5f67bw3ws"]
+
+[ext_resource type="Script" path="res://Nuke Fantasy/Inventory_Items/Scripts/inventory_item.gd" id="1_weq38"]
+[ext_resource type="Texture2D" uid="uid://bn726uqahyo1m" path="res://Nuke Fantasy/HUD/Sprite/Item_Sheet.png" id="2_l4xg4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4abfb"]
+atlas = ExtResource("2_l4xg4")
+region = Rect2(32, 32, 32, 32)
+
+[resource]
+script = ExtResource("1_weq38")
+name = "Stick"
+texture = SubResource("AtlasTexture_4abfb")
+maxAmountPrStack = 10
+equip = false
+resource = true

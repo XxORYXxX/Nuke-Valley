@@ -1,0 +1,62 @@
+[gd_scene load_steps=10 format=3 uid="uid://3r27hhpjf0i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g8sga"]
+region = Rect2(0, 16, 0, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yirgl"]
+region = Rect2(0, 0, 0, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jr7xd"]
+region = Rect2(0, 32, 0, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rnkcu"]
+region = Rect2(0, 16, 0, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wlvxe"]
+region = Rect2(0, 0, 0, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e1n5g"]
+region = Rect2(0, 32, 0, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_abp31"]
+region = Rect2(0, 16, 0, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a1jx1"]
+region = Rect2(0, 0, 0, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_phyjo"]
+region = Rect2(0, 32, 0, 16)
+
+[node name="HUD_Info" type="CanvasLayer"]
+scale = Vector2(1.2, 1.2)
+transform = Transform2D(1.2, 0, 0, 1.2, 0, 0)
+
+[node name="Health" type="TextureProgressBar" parent="."]
+offset_left = 48.3333
+offset_top = 4.16667
+offset_right = 160.333
+offset_bottom = 20.1667
+value = 100.0
+texture_under = SubResource("AtlasTexture_g8sga")
+texture_over = SubResource("AtlasTexture_yirgl")
+texture_progress = SubResource("AtlasTexture_jr7xd")
+
+[node name="Sanaty" type="TextureProgressBar" parent="."]
+offset_left = 48.3333
+offset_top = 20.0
+offset_right = 160.333
+offset_bottom = 36.0
+value = 100.0
+texture_under = SubResource("AtlasTexture_rnkcu")
+texture_over = SubResource("AtlasTexture_wlvxe")
+texture_progress = SubResource("AtlasTexture_e1n5g")
+
+[node name="Hunger" type="TextureProgressBar" parent="."]
+offset_left = 48.3333
+offset_top = 35.8333
+offset_right = 160.333
+offset_bottom = 51.8333
+value = 100.0
+texture_under = SubResource("AtlasTexture_abp31")
+texture_over = SubResource("AtlasTexture_a1jx1")
+texture_progress = SubResource("AtlasTexture_phyjo")

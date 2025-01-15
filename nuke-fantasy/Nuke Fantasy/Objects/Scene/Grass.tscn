@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://clav4p5338nh2"]
+
+[ext_resource type="PackedScene" uid="uid://bdqgg8x1c2a21" path="res://Nuke Fantasy/Objects/Scene/objects_parrent.tscn" id="1_o001r"]
+[ext_resource type="Resource" uid="uid://8j7umx86b4n4" path="res://Nuke Fantasy/Inventory_Items/Items'/Grass.tres" id="2_m1rer"]
+[ext_resource type="Texture2D" uid="uid://bn726uqahyo1m" path="res://Nuke Fantasy/HUD/Sprite/Item_Sheet.png" id="3_htctc"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ikro6"]
+radius = 7.38241
+
+[node name="Objects_Parrent" instance=ExtResource("1_o001r")]
+itemRes = ExtResource("2_m1rer")
+
+[node name="Sprite2D2" parent="." index="0"]
+position = Vector2(-0.25, 4.5)
+scale = Vector2(1.22917, 0.777778)
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(-0.5, -0.5)
+shape = SubResource("CircleShape2D_ikro6")
+
+[node name="Sprite2D" parent="." index="2"]
+rotation = 0.785398
+texture = ExtResource("3_htctc")
+hframes = 6
+vframes = 6
+frame = 10

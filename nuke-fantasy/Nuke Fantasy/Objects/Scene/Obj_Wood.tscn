@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://jpgdpkwbu5t6"]
+
+[ext_resource type="PackedScene" uid="uid://bdqgg8x1c2a21" path="res://Nuke Fantasy/Objects/Scene/objects_parrent.tscn" id="1_xd5wl"]
+[ext_resource type="Resource" uid="uid://7lb3jt84jnq" path="res://Nuke Fantasy/Inventory_Items/Items'/Wood.tres" id="2_bopop"]
+[ext_resource type="Texture2D" uid="uid://bn726uqahyo1m" path="res://Nuke Fantasy/HUD/Sprite/Item_Sheet.png" id="3_wbppe"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_58rme"]
+radius = 9.21954
+
+[node name="Objects_Parrent" instance=ExtResource("1_xd5wl")]
+itemRes = ExtResource("2_bopop")
+
+[node name="Sprite2D2" parent="." index="0"]
+position = Vector2(2.86331, 3.13669)
+scale = Vector2(1.03598, 3.09974)
+skew = 0.785398
+
+[node name="CollisionShape2D" parent="." index="1"]
+shape = SubResource("CircleShape2D_58rme")
+
+[node name="Sprite2D" parent="." index="2"]
+texture = ExtResource("3_wbppe")
+hframes = 6
+vframes = 6
+frame = 9

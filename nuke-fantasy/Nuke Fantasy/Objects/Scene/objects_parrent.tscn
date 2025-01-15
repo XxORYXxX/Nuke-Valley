@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bdqgg8x1c2a21"]
+
+[ext_resource type="Script" path="res://Nuke Fantasy/Objects/Scripts/objects_parrent.gd" id="1_sngip"]
+[ext_resource type="Texture2D" uid="uid://cq7pghn17fmwu" path="res://Nuke Fantasy/Characters/Joe/shadows.png" id="2_6iiee"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cpkkc"]
+radius = 32.0
+
+[node name="Objects_Parrent" type="Area2D"]
+script = ExtResource("1_sngip")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+texture = ExtResource("2_6iiee")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_cpkkc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

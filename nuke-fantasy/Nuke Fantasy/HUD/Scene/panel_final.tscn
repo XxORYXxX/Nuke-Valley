@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwlwaisfey1h4"]
+
+[ext_resource type="Script" path="res://Nuke Fantasy/HUD/Scripts/panel.gd" id="1_q2cbb"]
+[ext_resource type="Texture2D" uid="uid://ctwgtli2a1yfn" path="res://Nuke Fantasy/HUD/Sprite/HUD_Inventory.png" id="2_an4j7"]
+
+[node name="Panel" type="Button"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(32, 32)
+offset_right = 32.0
+offset_bottom = 32.0
+script = ExtResource("1_q2cbb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_an4j7")
+centered = false
+hframes = 4
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_right = 32.0
+offset_bottom = 32.0

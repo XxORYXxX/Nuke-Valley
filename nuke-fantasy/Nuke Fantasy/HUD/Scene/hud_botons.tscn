@@ -1,0 +1,224 @@
+[gd_scene load_steps=35 format=3 uid="uid://do6h5l2pcyfk6"]
+
+[ext_resource type="Script" path="res://Nuke Fantasy/HUD/Scene/hud_botons.gd" id="1_bw035"]
+[ext_resource type="Texture2D" uid="uid://dwcfrd1wlpmdg" path="res://Nuke Fantasy/HUD/Sprite/HUD_Bottons.png" id="1_drk02"]
+[ext_resource type="Texture2D" uid="uid://xbqyi7qjlspt" path="res://Nuke Fantasy/HUD/Sprite/HUD_BOOK.png" id="2_cckr1"]
+[ext_resource type="Texture2D" uid="uid://env7sw7t2cm7" path="res://Nuke Fantasy/HUD/Sprite/Book Icons1.png" id="4_76qnp"]
+[ext_resource type="Texture2D" uid="uid://co5af50cy5smc" path="res://Nuke Fantasy/HUD/Sprite/Book Icons3.png" id="5_k0tyn"]
+[ext_resource type="Texture2D" uid="uid://bhifg5xvd74pe" path="res://Nuke Fantasy/HUD/Sprite/Book Icons2.png" id="6_e70sh"]
+[ext_resource type="Texture2D" uid="uid://bn726uqahyo1m" path="res://Nuke Fantasy/HUD/Sprite/Item_Sheet.png" id="7_81cyg"]
+[ext_resource type="Texture2D" uid="uid://k7xsi5qkhg4h" path="res://Nuke Fantasy/HUD/Sprite/CRAFT_BOTONS.png" id="8_1i8x1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fn74b"]
+atlas = ExtResource("1_drk02")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0c6gk"]
+atlas = ExtResource("1_drk02")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cqvq2"]
+atlas = ExtResource("1_drk02")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wena6"]
+atlas = ExtResource("1_drk02")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vk4m1"]
+atlas = ExtResource("1_drk02")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_34h5n"]
+atlas = ExtResource("1_drk02")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8u4fb"]
+atlas = ExtResource("4_76qnp")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dsst4"]
+atlas = ExtResource("5_k0tyn")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ssuqv"]
+atlas = ExtResource("6_e70sh")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gb3fq"]
+atlas = ExtResource("4_76qnp")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g8gvn"]
+atlas = ExtResource("5_k0tyn")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xkq83"]
+atlas = ExtResource("6_e70sh")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6s4s6"]
+atlas = ExtResource("4_76qnp")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0xds3"]
+atlas = ExtResource("5_k0tyn")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1t74y"]
+atlas = ExtResource("6_e70sh")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wc0we"]
+atlas = ExtResource("4_76qnp")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uc752"]
+atlas = ExtResource("5_k0tyn")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vtb8h"]
+atlas = ExtResource("6_e70sh")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_witiy"]
+atlas = ExtResource("4_76qnp")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rw0r0"]
+atlas = ExtResource("5_k0tyn")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q7mur"]
+atlas = ExtResource("6_e70sh")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6uuxo"]
+atlas = ExtResource("7_81cyg")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1uw8"]
+atlas = ExtResource("7_81cyg")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6p5bl"]
+atlas = ExtResource("8_1i8x1")
+region = Rect2(0, 0, 64, 0)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_03n4d"]
+atlas = ExtResource("8_1i8x1")
+region = Rect2(128, 0, 64, 0)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d56vx"]
+atlas = ExtResource("8_1i8x1")
+region = Rect2(64, 0, 64, 0)
+
+[node name="Bottons" type="CanvasLayer"]
+scale = Vector2(1.2, 1.2)
+transform = Transform2D(1.2, 0, 0, 1.2, 0, 0)
+script = ExtResource("1_bw035")
+
+[node name="Book" type="TextureButton" parent="."]
+anchors_preset = -1
+anchor_left = 0.976
+anchor_right = 0.976
+offset_left = -167.254
+offset_right = -135.254
+offset_bottom = 32.0
+grow_horizontal = 0
+texture_normal = SubResource("AtlasTexture_fn74b")
+texture_pressed = SubResource("AtlasTexture_0c6gk")
+texture_hover = SubResource("AtlasTexture_cqvq2")
+
+[node name="Map" type="TextureButton" parent="."]
+anchors_preset = -1
+anchor_left = 0.972
+anchor_right = 0.972
+offset_left = -127.907
+offset_right = -95.9069
+offset_bottom = 32.0
+grow_horizontal = 0
+texture_normal = SubResource("AtlasTexture_wena6")
+texture_pressed = SubResource("AtlasTexture_vk4m1")
+texture_hover = SubResource("AtlasTexture_34h5n")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+offset_left = 70.0
+offset_top = 13.0
+offset_right = 463.0
+offset_bottom = 266.0
+texture = ExtResource("2_cckr1")
+
+[node name="Book_Icons" type="GridContainer" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 44.1664
+offset_top = 15.0
+offset_right = 184.166
+offset_bottom = 83.0
+columns = 4
+
+[node name="Tools" type="TextureButton" parent="NinePatchRect/Book_Icons"]
+clip_contents = true
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_8u4fb")
+texture_pressed = SubResource("AtlasTexture_dsst4")
+texture_hover = SubResource("AtlasTexture_ssuqv")
+
+[node name="Food" type="TextureButton" parent="NinePatchRect/Book_Icons"]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_gb3fq")
+texture_pressed = SubResource("AtlasTexture_g8gvn")
+texture_hover = SubResource("AtlasTexture_xkq83")
+
+[node name="Work" type="TextureButton" parent="NinePatchRect/Book_Icons"]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_6s4s6")
+texture_pressed = SubResource("AtlasTexture_0xds3")
+texture_hover = SubResource("AtlasTexture_1t74y")
+
+[node name="Fight" type="TextureButton" parent="NinePatchRect/Book_Icons"]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_wc0we")
+texture_pressed = SubResource("AtlasTexture_uc752")
+texture_hover = SubResource("AtlasTexture_vtb8h")
+
+[node name="Refine" type="TextureButton" parent="NinePatchRect/Book_Icons"]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_witiy")
+texture_pressed = SubResource("AtlasTexture_rw0r0")
+texture_hover = SubResource("AtlasTexture_q7mur")
+
+[node name="Items" type="GridContainer" parent="NinePatchRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.556
+anchor_top = 0.075
+anchor_right = 0.556
+anchor_bottom = 0.075
+offset_left = -0.135925
+offset_top = -0.0500011
+offset_right = 67.8641
+offset_bottom = 31.95
+columns = 4
+
+[node name="Axe" type="TextureButton" parent="NinePatchRect/Items"]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_6uuxo")
+
+[node name="PickAxe" type="TextureButton" parent="NinePatchRect/Items"]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_k1uw8")
+
+[node name="TextureButton" type="TextureButton" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 236.667
+offset_top = 173.667
+offset_right = 300.667
+offset_bottom = 205.667
+texture_normal = SubResource("AtlasTexture_6p5bl")
+texture_pressed = SubResource("AtlasTexture_03n4d")
+texture_hover = SubResource("AtlasTexture_d56vx")
+
+[connection signal="pressed" from="Book" to="." method="_on_book_pressed"]
+[connection signal="pressed" from="NinePatchRect/Book_Icons/Tools" to="." method="_on_tools_pressed"]
