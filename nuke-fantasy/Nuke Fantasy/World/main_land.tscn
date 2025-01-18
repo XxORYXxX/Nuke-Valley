@@ -203,3 +203,14 @@ tile_set = SubResource("TileSet_lmgw0")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(966, 554)
+
+[connection signal="body_entered" from="TileMap/Items/Objects_Parrent" to="TileMap/Items/Objects_Parrent" method="_on_body_entered"]
+[connection signal="body_entered" from="TileMap/Items/Obj_Stick" to="TileMap/Items/Obj_Stick" method="_on_body_entered"]
+[connection signal="body_entered" from="TileMap/Items/@Area2D@37770" to="TileMap/Items/@Area2D@37770" method="_on_body_entered"]
+[connection signal="body_entered" from="TileMap/Items/@Area2D@37771" to="TileMap/Items/@Area2D@37771" method="_on_body_entered"]
+[connection signal="body_entered" from="TileMap/Items/@Area2D@37772" to="TileMap/Items/@Area2D@37772" method="_on_body_entered"]
+[connection signal="body_entered" from="TileMap/Items/@Area2D@37773" to="TileMap/Items/@Area2D@37773" method="_on_body_entered"]
+[connection signal="body_entered" from="TileMap/Items/@Area2D@37774" to="TileMap/Items/@Area2D@37774" method="_on_body_entered"]
+[connection signal="body_entered" from="TileMap/Items/@Area2D@37775" to="TileMap/Items/@Area2D@37775" method="_on_body_entered"]
+[connection signal="body_entered" from="TileMap/Items/@Area2D@37776" to="TileMap/Items/@Area2D@37776" method="_on_body_entered"]
+[connection signal="body_entered" from="TileMap/Items/@Area2D@37777" to="TileMap/Items/@Area2D@37777" method="_on_body_entered"]
