@@ -22,7 +22,7 @@ func set_max_health(value: int):
 		max_health = value;
 		max_health_changed.emit(difference);
 		
-		if health > max_health: 
+		if health > max_health:
 			health = max_health;
 			
 func get_max_health() -> int:

@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\nuke-fantasy",
+    "\\nuke-fantasy\\Nuke Fantasy",
+    "\\nuke-fantasy\\Nuke Fantasy\\World"
   ],
-  "SelectedNode": "\\LICENSE",
+  "SelectedNode": "\\nuke-fantasy\\Nuke Fantasy\\World\\main_land.tscn",
   "PreviewInSolutionExplorer": false
 }

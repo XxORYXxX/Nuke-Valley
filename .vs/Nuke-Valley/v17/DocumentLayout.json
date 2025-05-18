@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jdsas\\Documents\\GitHub\\Nuke-Valley\\",
+  "WorkspaceRootPath": "C:\\Users\\jdsas\\OneDrive\\Documents\\GitHub\\Nuke-Valley\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jdsas\\Documents\\GitHub\\Nuke-Valley\\Main..c\u002B\u002B||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Main..c\u002B\u002B||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jdsas\\OneDrive\\Documents\\GitHub\\Nuke-Valley\\nuke-fantasy\\Nuke Fantasy\\World\\main_land.tscn||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nuke-fantasy\\Nuke Fantasy\\World\\main_land.tscn||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jdsas\\OneDrive\\Documents\\GitHub\\Nuke-Valley\\nuke-fantasy\\Nuke Fantasy\\Inventory_Items\\Scripts\\inventory.gd||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nuke-fantasy\\Nuke Fantasy\\Inventory_Items\\Scripts\\inventory.gd||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main..c\u002B\u002B",
-              "DocumentMoniker": "C:\\Users\\jdsas\\Documents\\GitHub\\Nuke-Valley\\Main..c\u002B\u002B",
-              "RelativeDocumentMoniker": "Main..c\u002B\u002B",
-              "ToolTip": "C:\\Users\\jdsas\\Documents\\GitHub\\Nuke-Valley\\Main..c\u002B\u002B*",
-              "RelativeToolTip": "Main..c\u002B\u002B*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Title": "main_land.tscn",
+              "DocumentMoniker": "C:\\Users\\jdsas\\OneDrive\\Documents\\GitHub\\Nuke-Valley\\nuke-fantasy\\Nuke Fantasy\\World\\main_land.tscn",
+              "RelativeDocumentMoniker": "nuke-fantasy\\Nuke Fantasy\\World\\main_land.tscn",
+              "ToolTip": "C:\\Users\\jdsas\\OneDrive\\Documents\\GitHub\\Nuke-Valley\\nuke-fantasy\\Nuke Fantasy\\World\\main_land.tscn",
+              "RelativeToolTip": "nuke-fantasy\\Nuke Fantasy\\World\\main_land.tscn",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-12T06:13:27.454Z",
+              "WhenOpened": "2025-03-05T16:03:25.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "inventory.gd",
+              "DocumentMoniker": "C:\\Users\\jdsas\\OneDrive\\Documents\\GitHub\\Nuke-Valley\\nuke-fantasy\\Nuke Fantasy\\Inventory_Items\\Scripts\\inventory.gd",
+              "RelativeDocumentMoniker": "nuke-fantasy\\Nuke Fantasy\\Inventory_Items\\Scripts\\inventory.gd",
+              "ToolTip": "C:\\Users\\jdsas\\OneDrive\\Documents\\GitHub\\Nuke-Valley\\nuke-fantasy\\Nuke Fantasy\\Inventory_Items\\Scripts\\inventory.gd",
+              "RelativeToolTip": "nuke-fantasy\\Nuke Fantasy\\Inventory_Items\\Scripts\\inventory.gd",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-05T16:00:10.84Z",
               "EditorCaption": ""
             }
           ]

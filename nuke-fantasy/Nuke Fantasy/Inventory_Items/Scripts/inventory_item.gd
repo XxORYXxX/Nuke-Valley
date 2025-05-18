@@ -7,8 +7,3 @@ class_name InventoryItem
 @export var maxAmountPrStack: int
 @export var equip: bool
 @export var resource: bool
-
-
-
-
-	
