@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cwlwaisfey1h4"]
 
-[ext_resource type="Script" path="res://Nuke Fantasy/HUD/Scripts/panel.gd" id="1_q2cbb"]
+[ext_resource type="Script" uid="uid://bkispi1p1v7bm" path="res://Nuke Fantasy/HUD/Scripts/panel.gd" id="1_q2cbb"]
 [ext_resource type="Texture2D" uid="uid://ctwgtli2a1yfn" path="res://Nuke Fantasy/HUD/Sprite/HUD_Inventory.png" id="2_an4j7"]
 
 [node name="Panel" type="Button"]

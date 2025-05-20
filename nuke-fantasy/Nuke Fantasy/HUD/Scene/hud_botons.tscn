@@ -1,6 +1,6 @@
 [gd_scene load_steps=35 format=3 uid="uid://do6h5l2pcyfk6"]
 
-[ext_resource type="Script" path="res://Nuke Fantasy/HUD/Scene/hud_botons.gd" id="1_bw035"]
+[ext_resource type="Script" uid="uid://csi63yguhlffg" path="res://Nuke Fantasy/HUD/Scene/hud_botons.gd" id="1_bw035"]
 [ext_resource type="Texture2D" uid="uid://dwcfrd1wlpmdg" path="res://Nuke Fantasy/HUD/Sprite/HUD_Bottons.png" id="1_drk02"]
 [ext_resource type="Texture2D" uid="uid://xbqyi7qjlspt" path="res://Nuke Fantasy/HUD/Sprite/HUD_BOOK.png" id="2_cckr1"]
 [ext_resource type="Texture2D" uid="uid://env7sw7t2cm7" path="res://Nuke Fantasy/HUD/Sprite/Book Icons1.png" id="4_76qnp"]

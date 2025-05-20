@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Inventory" load_steps=16 format=3 uid="uid://cf88ee5xak7m0"]
 
-[ext_resource type="Script" path="res://Nuke Fantasy/Inventory_Items/Scripts/inventory.gd" id="1_xysfx"]
-[ext_resource type="Script" path="res://Nuke Fantasy/Inventory_Items/Scripts/inventorySlot.gd" id="2_pafl8"]
+[ext_resource type="Script" uid="uid://dbr1sci3ter6y" path="res://Nuke Fantasy/Inventory_Items/Scripts/inventory.gd" id="1_xysfx"]
+[ext_resource type="Script" uid="uid://1nx1km4xlfj8" path="res://Nuke Fantasy/Inventory_Items/Scripts/inventorySlot.gd" id="2_pafl8"]
 
 [sub_resource type="Resource" id="Resource_nysql"]
 script = ExtResource("2_pafl8")

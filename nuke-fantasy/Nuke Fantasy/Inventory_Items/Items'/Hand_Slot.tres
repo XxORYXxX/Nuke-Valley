@@ -1,8 +1,3 @@
-[gd_resource type="Resource" script_class="HandSlot" load_steps=3 format=3 uid="uid://d1fpdxp8rxbmh"]
-
-[ext_resource type="Script" path="res://HandSlot.gd" id="1_jnmgy"]
-[ext_resource type="Script" path="res://Nuke Fantasy/Inventory_Items/Scripts/inventorySlot.gd" id="2_pyspo"]
+[gd_resource type="Resource" format=3 uid="uid://d1fpdxp8rxbmh"]
 
 [resource]
-script = ExtResource("1_jnmgy")
-slots = Array[ExtResource("2_pyspo")]([null])

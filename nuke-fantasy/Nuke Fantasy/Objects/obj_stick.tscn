@@ -1,22 +1,26 @@
 [gd_scene load_steps=5 format=3 uid="uid://kyodkpeqbb1c"]
 
 [ext_resource type="PackedScene" uid="uid://doll4ix13t0jn" path="res://Nuke Fantasy/Objects/objects_parrent.tscn" id="1_nyfev"]
-[ext_resource type="Resource" path="res://stick.tres" id="2_jkx4u"]
-[ext_resource type="Texture2D" path="res://Nuke Fantasy/Objects/Item_Sheet.png" id="3_hs5ip"]
+
+[sub_resource type="Resource" id="Resource_fb0sh"]
+metadata/__load_path__ = "res://stick.tres"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r1pmw"]
 resource_local_to_scene = true
 size = Vector2(25, 25)
 
+[sub_resource type="Resource" id="Resource_mhwgu"]
+metadata/__load_path__ = "res://Nuke Fantasy/Objects/Item_Sheet.png"
+
 [node name="Obj_Stick" instance=ExtResource("1_nyfev")]
-itemRes = ExtResource("2_jkx4u")
+itemRes = SubResource("Resource_fb0sh")
 
 [node name="CollisionShape2D" parent="." index="0"]
 position = Vector2(1.5, 0.5)
 shape = SubResource("RectangleShape2D_r1pmw")
 
 [node name="Sprite2D" parent="." index="1"]
-texture = ExtResource("3_hs5ip")
+texture = SubResource("Resource_mhwgu")
 hframes = 6
 vframes = 6
 frame = 7

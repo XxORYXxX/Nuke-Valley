@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="InventoryItem" load_steps=4 format=3 uid="uid://8j7umx86b4n4"]
 
-[ext_resource type="Script" path="res://Nuke Fantasy/Inventory_Items/Scripts/inventory_item.gd" id="1_sk56h"]
+[ext_resource type="Script" uid="uid://o1dc2us0bw0c" path="res://Nuke Fantasy/Inventory_Items/Scripts/inventory_item.gd" id="1_sk56h"]
 [ext_resource type="Texture2D" uid="uid://bn726uqahyo1m" path="res://Nuke Fantasy/HUD/Sprite/Item_Sheet.png" id="2_h8sm0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i1eao"]

@@ -1,8 +1,8 @@
 [gd_scene load_steps=42 format=3 uid="uid://dlle7ybccwsva"]
 
-[ext_resource type="Script" path="res://Nuke Fantasy/Characters/Joe/joe.gd" id="1_or11w"]
+[ext_resource type="Script" uid="uid://7qds0vbxrpa4" path="res://Nuke Fantasy/Characters/Joe/joe.gd" id="1_or11w"]
 [ext_resource type="Texture2D" uid="uid://mim1upfxleo" path="res://Nuke Fantasy/Characters/Joe/Joe-Sheet.png" id="2_e7bt2"]
-[ext_resource type="Script" path="res://Nuke Fantasy/Characters/Health.gd" id="2_fr06f"]
+[ext_resource type="Script" uid="uid://ckdl75w0gbe8n" path="res://Nuke Fantasy/Characters/Health.gd" id="2_fr06f"]
 [ext_resource type="Resource" uid="uid://cf88ee5xak7m0" path="res://Nuke Fantasy/Inventory_Items/Items'/Inv.tres" id="2_iwohn"]
 [ext_resource type="Texture2D" uid="uid://cq7pghn17fmwu" path="res://Nuke Fantasy/Characters/Joe/shadows.png" id="5_ibqel"]
 
@@ -235,19 +235,19 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ode4y"]
 _data = {
-"RESET": SubResource("Animation_a6ksi"),
-"spr_J_idle_down": SubResource("Animation_6rfos"),
-"spr_J_idle_left": SubResource("Animation_4qu47"),
-"spr_J_idle_right": SubResource("Animation_y8rqf"),
-"spr_J_idle_up": SubResource("Animation_fdf3x"),
-"spr_J_walk_down": SubResource("Animation_rubgk"),
-"spr_J_walk_left": SubResource("Animation_mok2m"),
-"spr_J_walk_right": SubResource("Animation_0ebp1"),
-"spr_J_walk_up": SubResource("Animation_ukcr1"),
-"spr_Joe_Run_Down": SubResource("Animation_uh478"),
-"spr_Joe_Run_Left": SubResource("Animation_do10j"),
-"spr_Joe_Run_Right": SubResource("Animation_smtxc"),
-"spr_Joe_Run_Up": SubResource("Animation_memgq")
+&"RESET": SubResource("Animation_a6ksi"),
+&"spr_J_idle_down": SubResource("Animation_6rfos"),
+&"spr_J_idle_left": SubResource("Animation_4qu47"),
+&"spr_J_idle_right": SubResource("Animation_y8rqf"),
+&"spr_J_idle_up": SubResource("Animation_fdf3x"),
+&"spr_J_walk_down": SubResource("Animation_rubgk"),
+&"spr_J_walk_left": SubResource("Animation_mok2m"),
+&"spr_J_walk_right": SubResource("Animation_0ebp1"),
+&"spr_J_walk_up": SubResource("Animation_ukcr1"),
+&"spr_Joe_Run_Down": SubResource("Animation_uh478"),
+&"spr_Joe_Run_Left": SubResource("Animation_do10j"),
+&"spr_Joe_Run_Right": SubResource("Animation_smtxc"),
+&"spr_Joe_Run_Up": SubResource("Animation_memgq")
 }
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ql6x8"]
